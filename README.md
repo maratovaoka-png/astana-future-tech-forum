@@ -23,7 +23,7 @@ A modern responsive landing page for a student-friendly tech conference.
 - JavaScript
 
 ## Live Demo
-(будет ссылка после GitHub Pages)
+https://maratovaoka-png.github.io/astana-future-tech-forum/
 
 ## Author
 Oryngul Maratova
