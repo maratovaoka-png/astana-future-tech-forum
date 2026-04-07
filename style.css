@@ -332,3 +332,130 @@ footer {
   color: #b4c0d9;
   line-height: 1.6;
 }
+
+@media (max-width: 1024px) {
+  .hero h1 {
+    font-size: 44px;
+  }
+
+  .features-grid,
+  .tickets-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .speakers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .schedule-item {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-badge {
+    justify-self: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .nav-links a {
+    margin-left: 0;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  section,
+  .about-section,
+  .speakers-section,
+  .schedule-section,
+  .tickets-section,
+  .faq-section {
+    padding: 60px 20px;
+  }
+
+  .features-grid,
+  .speakers-grid,
+  .tickets-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-content h2,
+  .speakers-header h2,
+  .schedule-header h2,
+  .tickets-header h2,
+  .faq-header h2 {
+    font-size: 32px;
+  }
+
+  .speaker-image {
+    height: 180px;
+  }
+
+  .ticket-price {
+    font-size: 32px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    width: 100%;
+  }
+
+  .schedule-time {
+    font-size: 16px;
+  }
+
+  .schedule-details h3,
+  .faq-item h3,
+  .feature-card h3,
+  .speaker-info h3 {
+    font-size: 20px;
+  }
+}
