@@ -239,3 +239,65 @@ footer {
   font-size: 14px;
   white-space: nowrap;
 }
+
+.tickets-section {
+  padding: 80px 40px;
+}
+
+.tickets-header {
+  max-width: 700px;
+  margin-bottom: 40px;
+}
+
+.tickets-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.ticket-card {
+  position: relative;
+  padding: 28px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ticket-card-featured {
+  border: 1px solid rgba(86, 224, 255, 0.4);
+}
+
+.ticket-label {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #56e0ff, #8b5cf6);
+  color: #081120;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ticket-price {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 16px 0 10px;
+  color: white;
+}
+
+.ticket-description {
+  color: #b4c0d9;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.ticket-features {
+  list-style: none;
+  margin-bottom: 24px;
+  padding-left: 0;
+}
+
+.ticket-features li {
+  margin-bottom: 12px;
+  color: #b4c0d9;
+}
