@@ -1,25 +1,29 @@
 # Astana Future Tech Forum
 
-A responsive landing page concept for a student-friendly tech conference in Astana.
+A modern responsive landing page for a student-friendly tech conference.
+
+## Preview
+
+![Preview](image.png)
 
 ## Features
 - Responsive layout
-- Navigation menu
-- Hero section with CTA buttons
-- About section with feature cards
+- Modern UI design
+- Navigation with smooth scroll
+- Hero section with CTA
 - Speakers section
-- Schedule section
-- Tickets pricing section
+- Event schedule
+- Tickets pricing
 - FAQ section
-- JavaScript interactions
+- Interactive JavaScript features
 
 ## Tech Stack
 - HTML5
 - CSS3
 - JavaScript
 
-## Project Goal
-This project was created to practice frontend development and build a portfolio-ready landing page for internship applications.
+## Live Demo
+(будет ссылка после GitHub Pages)
 
 ## Author
 Oryngul Maratova
